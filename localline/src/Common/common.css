@@ -1,0 +1,86 @@
+th {
+    color: #56B385;
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1; 
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+.Pagination-Div{
+    padding: 0.4rem;
+}
+
+.Pagination {
+    float: right;
+    margin-right: 3.5%;
+}
+
+.LT .GT {
+    padding: 0px 3px;
+}
+
+.LT::after{
+    content: ' \003C';
+    color: #d0c0c0;
+    font-weight: 600;
+}
+
+.GT::after{
+    content: ' \003E';
+    color: #d0c0c0;
+    font-weight: 600;
+}
+
+.Pagination a {
+    color: black;
+    float: left;
+    padding: 0px 5px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 0.3rem;
+}
+
+.Pagination a.active {
+    background-color: #56B385;
+    color: white;
+    border: 1px solid #56B385;
+}
+
+.Pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+
+
+.Backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.13);
+}
