@@ -1,0 +1,53 @@
+.Customer {
+    font-weight: 500;
+    height: 50px;
+    border-bottom: 0.13rem solid #f1f1f1;
+}
+
+.header {
+    background: #f1f1f1; 
+    font-weight: 500;
+    border-bottom: 0.11rem solid #e4e4e4;
+    height: 50px;
+}
+
+.Custhead{
+     color: #56B385;
+}
+
+.Content{
+    float: left;
+    margin-left: 17px;
+    width: 85%;
+}
+.Customer .Start {
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+.TextLeft{
+    text-align: left;
+}
+
+.Cusotmer-Table{
+    width: 100%;
+}
+
+.View {
+    width: 10%;
+    float: right;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.Button{
+    margin: 10px 10px 10px 0px;
+    height: 30px;
+    width: 60px;
+    background-color: #56B385;
+    color: whitesmoke;
+    border-radius: 4px;
+}
