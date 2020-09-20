@@ -1,0 +1,72 @@
+.Column {
+    float: left;
+    width: 50%;
+    height: 210px; 
+    box-sizing: border-box;
+}
+
+.Header{
+    width: 100%;
+    margin-top: -5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+    margin-bottom: 0.5rem;
+    -webkit-text-stroke: medium;
+}
+  
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.SVG {
+    float: right;
+}
+
+.Label{
+    display: flex;
+    font-size: smaller;
+    font-weight: 500;
+    color: silver;
+    border-bottom: 2px solid silver;
+    width: 90%;
+}
+
+.DropDown {
+    width: 90%;
+    height: 10%;
+    margin-top: 0.2rem;
+    border-color: silver;
+}
+
+.Column input[type="text"]{
+    border: 2px;
+    width: 90%;
+    margin-top: 0.2rem;
+    -webkit-text-stroke: medium;
+}
+
+.Send-Cat{
+    background-color: #56B385;
+}
+
+.Add-Note{
+    background-color: #34077d;
+}
+
+.Btn {
+    width: 90%;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    border: 0px;
+    color: white;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+}
+
+input:focus{
+    outline: none;
+}
